@@ -1,3 +1,21 @@
 language: python
 python:
-  - "3.6"     #Default Travis CI Python Version
+  - "3.6"      #Default Python version on Travis CI
+
+# The commands to install the dependencies
+install:
+  - sudo apt-get install php
+  - pip install -r requirements.txt
+
+# This launches the website so it can be tested
+before_script:
+  - seleniumbase install chromedriver
+  - php -S localhost:8000 &
+
+# command to run tests
+script:
+  - coverage run unitTests.py
+  - pytest endToEndTests.py --browser=chrome --start-page=http://localhost:8000
+
+after_success:
+  - coveralls
