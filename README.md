@@ -7,13 +7,13 @@ The objective of these assignments was create a pipeline process that utilizes t
 A web interface should be assessible which hosts the products created by assignment 2 onto a cloud platform. 
 
 **Implement the Following**
-- [] Source Control -                Github
-- [] Continuous Integration -        Travis CI
-- [] Automated Unit Testing -        Travis CI
-- [] Automated E-2-E Tests  -        Travis CI
-- [] Static Analysis -               Sider
-- [] Automatic Staging Deployment -  Heroku
-- [] Manual Push to Production -     Heroku
-- [] 3rd Party Code Coverage -       Coveralls
+- [x] Source Control -                Github
+- [x] Continuous Integration -        Travis CI
+- [x] Automated Unit Testing -        Travis CI
+- [x] Automated E-2-E Tests  -        Travis CI
+- [x] Static Analysis -               Sider
+- [x] Automatic Staging Deployment -  Heroku
+- [x] Manual Push to Production -     Heroku
+- [x] 3rd Party Code Coverage -       Coveralls
 
 To explore the presented material in the lab report, it can be accessed as a document within the "Report" folder. 
