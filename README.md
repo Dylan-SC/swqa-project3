@@ -1,4 +1,4 @@
-# swqa-project3
+# swqa-project3 [![Coverage Status](https://coveralls.io/repos/github/Dylan-SC/swqa-project3/badge.svg?branch=Active-Branch)](https://coveralls.io/github/Dylan-SC/swqa-project3?branch=Active-Branch)
 This repository was created in coordinace with the guidlines set by my software testing and quality assurance project 3+4 assignment.
 
 
