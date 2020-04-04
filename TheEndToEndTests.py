@@ -1,4 +1,4 @@
-# This file is used to test the functionaliy of the webpage itself created via python
+# This file is used to test the functionality of the webpage itself created via python
 
 from seleniumbase import BaseCase
 
