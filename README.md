@@ -1,7 +1,7 @@
 # swqa-project3 
 [![Build Status](https://travis-ci.org/Dylan-SC/swqa-project3.svg?branch=master)](https://travis-ci.org/Dylan-SC/swqa-project3)
 [![Heroku](http://heroku-badge.herokuapp.com/?app=swqa-project3)](https://swqa-project3.herokuapp.com/)
-[![Coverage Status](https://coveralls.io/repos/github/Dylan-SC/swqa-project3/badge.svg?branch=Active-Branch)](https://coveralls.io/github/Dylan-SC/swqa-project3?branch=Active-Branch)
+[![Coverage Status](https://coveralls.io/repos/github/Dylan-SC/swqa-project3/badge.svg?branch=master)](https://coveralls.io/github/Dylan-SC/swqa-project3?branch=master)
 
 
 This repository was created in coordinace with the guidlines set by my software testing and quality assurance project 3+4 assignment.
