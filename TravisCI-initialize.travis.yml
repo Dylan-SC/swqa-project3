@@ -6,6 +6,7 @@ python:
 install:
   - sudo apt-get install php
   - pip install -r requirements.txt
+  - pip install coverage
 
 # This launches the website so it can be tested
 before_script:
