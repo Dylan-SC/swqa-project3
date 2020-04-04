@@ -11,7 +11,7 @@ install:
 # command to run tests
 script:
   - coverage run TheUnitTests.py
-  - pytest TheEndToEndTests.py
+  #- pytest TheEndToEndTests.py
 
 after_success:
   - coveralls
