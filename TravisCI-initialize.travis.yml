@@ -8,15 +8,10 @@ install:
   - pip install -r requirements.txt
   - pip install coverage
 
-# This launches the website so it can be tested
-before_script:
-  - seleniumbase install chromedriver
-  - php -S localhost:8000 &
-
 # command to run tests
 script:
   - coverage run TheUnitTests.py
-  - pytest TheEndToEndTests.py --browser=chrome --start-page=http://localhost:8000
+  - pytest TheEndToEndTests.py
 
 after_success:
   - coveralls
